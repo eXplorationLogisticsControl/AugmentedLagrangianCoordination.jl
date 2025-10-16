@@ -1,5 +1,7 @@
 # AugmentedLagrangianCoordination.jl
 
+![test workflow](https://github.com/Yuricst/AugmentedLagrangianCoordination.jl/actions/workflows/test.yml/badge.svg)
+
 Julia implementation of Augmented Lagrangian Coordination (ALC)
 
 ## Get started
