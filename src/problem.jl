@@ -1,6 +1,9 @@
 """Master problem struct"""
 
 
+"""
+Coordinated optimization problem struct
+"""
 mutable struct CoordinatedProblems
     M::Int
     subproblems::Vector{JuMP.Model}

@@ -71,7 +71,9 @@ function outerloop!(
     β::Real = 1.5,
     ϵ_outer::Float64 = 1e-3,
     ϵ_inner::Float64 = 1e-5;
-    maxiter_outer::Int=10, maxiter_inner::Int=10, verbosity::Int = 0
+    maxiter_outer::Int=10,
+    maxiter_inner::Int=10,
+    verbosity::Int = 0,
 )
     # exit flag initialization
     exitflag = 0

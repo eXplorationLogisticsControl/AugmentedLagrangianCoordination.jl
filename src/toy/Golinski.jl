@@ -157,5 +157,5 @@ function Golinski(solver; initial_multiplier::Float64 = 0.0, initial_weight::Flo
         @constraint(subproblem3, g_4, (1.1 * x7 + 1.9) / x5 - 1 <= 0)
         @constraint(subproblem3, g_8, (1.93 * x5^3) / (x2 * x3 * x7^4) - 1 <= 0)
     end
-    return master_variables, [subproblem1, subproblem2, subproblem3], variables_per_subproblem
+    return [subproblem1, subproblem2, subproblem3], variables_per_subproblem, master_variables
 end

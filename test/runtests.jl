@@ -9,7 +9,7 @@ include(joinpath(@__DIR__, "../src/AugmentedLagrangianCoordination.jl"))
 
 @testset "Golinski" begin
     # get problem
-    master_variables_values, subproblems, local_variable_symbols = AugmentedLagrangianCoordination.Golinski(Ipopt.Optimizer, silent = true);
+    subproblems, local_variable_symbols, master_variables_values = AugmentedLagrangianCoordination.Golinski(Ipopt.Optimizer, silent = true);
 
     # make sure subproblems are solveable
     for k = 1:3
