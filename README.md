@@ -1,6 +1,10 @@
-# AugmentedLagrangianCoordination.jl
+<p align="center">
+  <img src="docs/assets/logo.png" alt="AugmentedLagrangianCoordination.jl Logo" width="55%"/>
+</p>
 
-![test workflow](https://github.com/eXplorationLogisticsControl/AugmentedLagrangianCoordination.jl/actions/workflows/test.yml/badge.svg)
+<p align="center">
+  <img src="https://github.com/eXplorationLogisticsControl/AugmentedLagrangianCoordination.jl/actions/workflows/test.yml/badge.svg" alt="test workflow"/>
+</p>
 
 Julia implementation of Augmented Lagrangian Coordination (ALC)
 
